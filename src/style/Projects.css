@@ -1,0 +1,128 @@
+/* 
+    Created on : Mar 4, 2020, 4:55:03 PM
+    Author     : atharva
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+
+/* 
+    Nav Menu
+*/
+nav{
+    width: 96.8%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 4.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul.nav_left{
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ul.nav_right{
+    flex-direction: row-reverse;
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+nav li{ 
+    margin: 0 8%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.2em;
+}
+
+/*
+    main
+*/
+.wh{
+
+}
+.bl{
+    background-color: black;
+    color: #fff;
+    opacity: 0.9;
+}
+.container{
+    padding: 5% 4%;
+}
+.container h1{
+    margin-left: 4%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.container p{
+    margin-top: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    line-height: 30px;
+}
+.main0{
+    padding: 0 0 4%;
+    text-align: center;
+}
+.main0 p{
+    margin: 0 10%;
+    color: black;
+    opacity: 0.9;
+}
+.drone{
+    width: 30%;
+    margin: 4% 4% 0;
+}
+.p1{
+    margin-left: 15%;
+}
+.rp h1{
+    margin-bottom: 4%;
+}
+.rp a{
+    padding-top: 20%;
+    background-color: dodgerblue;
+    border: 2px solid black;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: all ease-in-out 400ms;
+    color: white;
+}
+.rp a:hover{
+    background-color: skyblue;
+    border: 2px solid white;
+    transition: all ease-in-out 400ms;
+}
+
+/* 
+    Footer
+*/
+footer{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.1em;
+}
+

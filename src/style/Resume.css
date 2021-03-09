@@ -1,0 +1,166 @@
+/* 
+    Created on : Mar 4, 2020, 4:55:03 PM
+    Author     : atharva
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+
+/* 
+    Nav Menu
+*/
+nav{
+    width: 96.8%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul.nav_left{
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ul.nav_right{
+    flex-direction: row-reverse;
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+nav li{ 
+    margin: 0 8%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.2em;
+}
+
+/*
+    main
+*/
+#main1{
+    color: white;
+    text-align: center;
+}
+#main1 a{
+    background-color: dodgerblue;
+    border: 2px solid black;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    transition: all ease-in-out 400ms;
+    color: white;
+}
+#main1 a:hover{
+    background-color: skyblue;
+    border: 2px solid white;
+    transition: all ease-in-out 400ms;
+}
+main{
+    margin: 0 18% 5%;
+}
+p.iht{
+    font-size: 19px;
+    text-align: center;
+}
+main h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    margin-top: 6% 
+}
+main p{
+    margin-top: 8%;
+    color: rgb(112, 112, 112);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.hr{
+    border: none;
+    position: relative;
+    background-color: midnightblue;
+    width: 65%;
+    height: 3px;
+    float: right;
+}
+.hr:after{
+    content: "";
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: skyblue;
+}
+.java:after{
+    width: 90%;
+}
+.c:after{
+    width: 86%;
+}
+.kt:after{
+    width: 82%;
+}
+.cs:after{
+    width: 80%;
+}
+.python:after{
+    width: 90%;
+}
+.js:after{
+    width: 78%;
+}
+.html:after{
+    width: 84%;
+}
+.css:after{
+    width: 78%;
+}
+.arduino:after{
+    width: 58%;
+}
+.sql:after{
+    width: 75%
+}
+.office:after{
+    width: 92%;
+}
+.win:after{
+    width: 90%;
+}
+.mac:after{
+    width: 95%
+}
+.lin:after{
+    width: 78%;
+}
+
+/* 
+    Footer
+*/
+footer{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.1em;
+}

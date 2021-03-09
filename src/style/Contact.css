@@ -1,0 +1,131 @@
+/* 
+    Created on : Mar 4, 2020, 4:55:03 PM
+    Author     : atharva
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+
+/* 
+    Nav Menu
+*/
+nav{
+    width: 96.8%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 4.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul.nav_left{
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ul.nav_right{
+    flex-direction: row-reverse;
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+nav li{ 
+    margin: 0 8%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.2em;
+}
+/* 
+    Main
+*/
+main h1{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity: 0.8;
+}
+main h3{
+    margin: 1.2% 0 1%;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity: 0.8;
+}
+main h2{
+    font-size: 20px;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    opacity: 0.8;
+}
+main a{
+    color: dodgerblue;
+    font-size: 30px;
+    padding: 25px;
+    border: 3px solid dodgerblue;
+    border-radius: 50%;
+    box-shadow: 0px 20px 15px -20px #111;
+}
+#mail{
+    margin: 3% 0 6%;
+    width: 100%;
+    text-align: center;
+}
+main hr{
+    margin: 0 auto 4%;
+    width: 55%;
+    height: 2px;
+    background-color: black;
+    opacity: 0.7;
+    border: none;
+}
+.iht{
+    margin: 2% 0;
+    width: 50%;
+}
+.p1{
+    float: left;
+}
+.p1 h2{
+    text-align: right;
+    margin-right: 12%;
+}
+.p2{
+    float: right;
+}
+.p2 h2{
+    text-align: left;
+    margin-left: 12%;
+}
+/* 
+    Footer
+*/
+footer{
+    clear: both;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 12%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.1em;
+}
+

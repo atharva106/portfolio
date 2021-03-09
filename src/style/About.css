@@ -1,0 +1,170 @@
+/* 
+    Created on : Mar 4, 2020, 4:55:03 PM
+    Author     : atharva
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+
+/* 
+    Nav Menu
+*/
+nav{
+    width: 96.8%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ul.nav_left{
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+header{
+    font-family: 'Open Sans', sans-serif;
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0.9;
+}
+ul.nav_right{
+    flex-direction: row-reverse;
+    width: 40%;
+    list-style: none;
+    display:flex;
+}
+nav li{ 
+    margin: 0 8%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.2em;
+}
+nav a:hover{
+    color: #fff;
+    transition: all ease-in-out 200ms;
+}
+
+/*
+*main
+*/
+main{
+    color: #fff;
+}
+#content{
+    float: right;
+    color: rgb(112, 112, 112);
+    width: 35%;
+    text-align: center;
+}
+#content h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    margin: 25px 0 25px;
+    opacity: 0.9;
+    letter-spacing: 4px;
+}
+#content hr{
+    width: 75%;
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0.8;
+}
+#content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin: 50px 0 15px;
+}
+#content h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 18px;
+}
+#content h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 15px 0 0;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    font-style: italic;
+}
+img.uc{
+    margin: 10% 0;
+    width: 40%;
+}
+#social{
+    width: auto;
+}
+#social img{
+    width: 30px;
+    margin: 0 5%;
+}
+#wrapper{
+    position: relative;
+    float: left;
+    clear: none;
+    width: 65%;
+    height: 575px;
+    background-image: url("../images/uc1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 40px;
+}
+#container{
+    height: 68%;
+    width: 100%;
+}
+#main1{
+    width: 96%;
+    margin: 6.5% auto 0;
+    clear: both;
+}
+#main1 h1{
+    margin-left: 8%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    opacity: 0.9;
+}
+#main1 h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 8%;
+    font-size: 22px;
+    opacity: .65;
+}
+p.about{
+    margin: 2% 5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(112, 112, 112);
+    font-size: 19px;
+    line-height: 30px;
+}
+
+/* 
+    Footer
+*/
+hr.footer{
+    width: 65%;
+    margin: 8% auto 2%;
+    opacity: 0.8;
+}
+footer{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 2%;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    letter-spacing: 0.1em;
+}
